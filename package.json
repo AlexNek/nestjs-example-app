@@ -15,14 +15,15 @@
     "url": "https://github.com/Ismaestro/nestjs-example-app.git"
   },
   "engines": {
-    "node": "16.18.0"
+    "node": "18.20.4"
   },
   "bugs": {
     "url": "https://github.com/Ismaestro/nestjs-example-app/issues"
   },
   "scripts": {
     "prepare": "husky install",
-    "start": "nest start --watch",
+    "start": "node dist/main",
+    "start:dev-def": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
     "docker": "docker-compose up -d",
