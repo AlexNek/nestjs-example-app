@@ -1,7 +1,8 @@
 # Deploy Nest JS application to Azure cloud
 ## Overview
 Deploying a NestJS application with Prisma to Azure can be accomplished by following a series of steps. This tutorial will guide you through deploying your application using Azure App Service.
-##Prerequisites
+
+## Prerequisites
 1. Node.js and npm: Make sure Node.js and npm are installed on your machine.
 1. Azure Account: You need an Azure account. If you don't have one, you can create a free account [here](https://azure.microsoft.com/en-us/free/).
 
@@ -36,8 +37,8 @@ npm run build
   }
 }
  ```
+![image](pics/login-test.png)
 
-![image](docu/pics/login-test.png)
 ## Step 2: Set Up Your Azure Environment via Azure Portal
 1. Log in to Azure Portal:
 Go to the [Azure Portal](https://portal.azure.com/) and log in with your Azure account
@@ -57,7 +58,7 @@ Go to the [Azure Portal](https://portal.azure.com/) and log in with your Azure a
  - For App Service Plan, either create a new one or use an existing one.
  - Click Review + Create and then Create.
 
-![image](pics/app-settings.png)
+![image](pics/app-settings.png)  
 Where is startup command is very important for application run
 
 ## Step 3: Deploy Your Application from Azure Repos
@@ -94,7 +95,7 @@ Set Environment Variables in Azure:
 - In the Azure Portal, navigate to your App Service.
 - Under Settings, click Configuration.
 - In the Application settings tab, click + New application setting.
-- Add your environment variables, such as DATABASE_URL
+- Add your environment variables, such as DATABASE_URL  
 ![image](pics/env.png)
 
 Click OK, then Save to apply the settings.
