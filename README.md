@@ -1,3 +1,4 @@
+Since the original server isn't working anymore, you need to deploy to your own server. I choose azure server with azure git repository. [Here](docu/azure.md) is a tutorial on how to set it up.
 <p align="center">
   <h3 align="center">NestJS Example App</h3>
 
